@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: ratings-api
-          image: <ACR_NAME>.azurecr.io/ratings-api:v2 # IMPORTANT: update with your own repository
+          image: kevin1acr.azurecr.io/ratings-api:latest # IMPORTANT: update with your own repository
           securityContext:
             privileged: true
           imagePullSecrets:
